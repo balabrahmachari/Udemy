@@ -1,0 +1,495 @@
+.navbar {
+    height: 5rem;
+    width: 100vw;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px gray;
+    
+}
+
+.subnav {
+    height: 4.6rem;
+    width: 97vw;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.udemylogo {
+    height: 4.8rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.udemycategory {
+    height: 110%;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-right: 1rem;
+    font-size: 15px;
+    color: rgb(138, 138, 138);
+}
+
+.udemycategory:hover {
+    color: purple;
+}
+
+.udemysearch {
+    height: 3rem;
+    width: 100%;
+    max-width: 38rem;
+    border-radius: 2rem;
+    border: 1px solid gray;
+    background: rgb(244, 244, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.searchinput {
+    height: 2.7rem;
+    width: 100%;
+    border-radius: 2rem;
+    border: none;
+    background: rgb(244, 244, 244);
+}
+
+.searchinput:focus {
+    outline: none;
+    padding-left: 20px;
+}
+
+.searchinput::placeholder {
+    font-size: 15px;
+}
+
+.searchicon {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    color: rgb(130, 129, 129);
+}
+
+.pricesdiv {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 1rem;
+}
+
+.prices {
+    height: 130%;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.prices:hover {
+    color: purple;
+}
+
+.udemycart {
+    margin: 0.5rem;
+}
+
+.cartc {
+    font-size: 22px;
+}
+
+.udemylogin {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.anchoretag {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+.loginsign {
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 5px;
+}
+
+.loginsign:hover {
+    background: rgba(67, 64, 64, 0.92);
+}
+
+.signup {
+    background: black;
+}
+
+.signuptext {
+    color: white;
+}
+
+.globe {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 15px 3px;
+}
+
+.globetext {
+    font-size: 20px;
+}
+
+
+.navbar>.pop1{
+    height: 650px;
+    width: 800px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 160px;
+    
+}
+.navbar>.pop1>div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.navbar>.pop1>div>ol{
+    height: 90%;
+    width: 35%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 246, 246);
+    box-shadow: 0px 2px 2px grey;
+}
+.navbar>.pop1>div>ol>li{
+    padding-left : 8px;
+    width: 100%;
+    margin-top: 22px;
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar>.pop1>div>ol>li>p:hover{
+    font-size: larger;
+    color: blueviolet;
+}
+.navbar>.pop1>div>ol>li>i{
+    margin-right: 8px;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar>.pop1>div>ul{
+    height: 80%;
+    width: 35%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 2px 2px 2px grey;
+}
+.navbar>.pop1>div>ul>li{
+    padding-left : 8px;
+    height: 30px;
+    width: 100%;
+    margin-top: 22px;
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.navbar>.pop1>div>ul>li>i{
+    margin-right: 8px;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar>.pop1>div>ul>li>p:hover{
+    font-size: larger;
+    color: blueviolet;
+}
+.navbar>.pop1>div>.ol1{
+    height: 400px;
+    width: 30%;
+}
+.navbar>.pop1>div>.ol1>li{
+    height: 30px;
+    padding-left : 8px;
+    width: 100%;
+    /* margin-top: 22px; */
+    font-size: medium;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar>.pop1>div>.ol1>li>p:hover{
+    font-size: larger;
+    color: blueviolet;
+}
+.navbar>.pop1>div>.ol1>li>i{
+    margin-right: 8px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar>.pop2{
+    height: 190px;
+    width: 260px;
+    margin-top: 7px;
+    margin-left: 790px;
+    background-color: white;
+    position: absolute;
+    padding: 4px;
+}
+.navbar>.pop2>h1{
+    height: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    
+}
+.navbar>.pop2>button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 90%;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.navbar>.pop3{
+    height: 170px;
+    width: 300px;
+    margin-top: 7px;
+    margin-left: 930px;
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+}
+.navbar>.pop3>h1{
+    height: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    
+}
+.navbar>.pop3>button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 90%;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+/* Media Queries */
+@media (max-width: 376px) {
+    .navbar {
+        height: 210px;
+        width: 1430px;
+    }
+    .udemycategory {
+        display: none;
+    }
+    
+    .subnav {
+        height: 100%;
+        width: 100%;
+    }
+    .udemylogo {
+        height: 250px;
+        width: 500px;
+        margin-left: 40%;
+        margin-top: -95px;
+    }
+     img{
+        height: 130px;
+     }
+     
+    .udemysearch {
+        height: 200px;
+        width: 150px;
+        margin-left: -150px;
+        margin-bottom: 100px;
+        background-color: transparent;
+        border: none;
+        
+    }
+    .searchicon {
+        font-size: 100px;
+    }
+    .searchinput {
+        display: none;
+    }
+
+    .pricesdiv {
+        display: none;
+    }
+    .udemylogin {
+        display: none;
+    }
+    .udemycart {
+        height: 200px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        
+    }
+    .cartc {
+        font-size: 100px;
+    }
+
+    .udemylogin {
+        width: 10%;
+        /* justify-content: space-between; */
+        /* margin-top: 1rem; */
+    }
+}
+
+@media (max-width: 1025px) and (min-width: 1023px) {
+    .navbar {
+        /* height: 120px; */
+        /* width: 100vw; */
+        /* background-color: aqua; */
+        /* margin-top: -30px; */
+    }
+    .udemycategory {
+        /* display: none; */
+    }
+    
+    .subnav {
+        /* height: 100%;
+        width: 100%; */
+    }
+    .udemylogo {
+        /* height: 90px;
+        width: 150px;
+        margin-bottom: 420px;
+        margin-left: 269px; */
+    }
+     img{
+        /* height: 90px; */
+     }
+     
+    .udemysearch {
+        height: 50px;
+        width: 180px;
+        /* margin-left: -10px; */
+        /* margin-bottom: 440px; */
+        /* border: none; */
+        
+        
+    }
+    .searchicon {
+        /* font-size: 60px; */
+    }
+    .searchinput {
+        /* display: none; */
+    }
+
+    .pricesdiv {
+        /* display: none; */
+    }
+    .udemylogin {
+        /* display: none; */
+    }
+    .udemycart {
+        /* height: 50px;
+        width: 50px;
+        display: flex;
+        margin-bottom: 500px;
+        margin-right: 100px;
+        justify-content: center;
+        align-items: flex-start; */
+        
+    }
+    .cartc {
+        /* font-size: 100px; */
+    }
+
+    .udemylogin {
+        /* width: 10%; */
+        /* justify-content: space-between; */
+        /* margin-top: 1rem; */
+    }
+    
+}
+
+/* @media (min-width: 768px) and (max-width: 1024px) {
+    .subnav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .udemysearch {
+        width: 60%;
+    }
+
+    .pricesdiv {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1025px) {
+    .subnav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .udemysearch {
+        width: 50%;
+    }
+
+    .pricesdiv {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        justify-content: space-around;
+    }
+
+    .udemylogin {
+        width: auto;
+        justify-content: flex-end;
+    }
+}  */

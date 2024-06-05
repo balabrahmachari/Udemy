@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.udemy {
+    
+}
+
+.udemybody {
+    margin: 0px 6rem;
+    /* border: 2px solid green; */
+}
+.courses{
+    height: 75vh;
+    background: #F7F9FA;
+    
+}
+.coursescard{
+    margin: 0px 6rem;
+    /* border: 2px solid red; */
+}
+.footercontainer{
+    background: #2D2F31;
+}
+.footerbox{
+    /* margin: 0px 2rem; */
+}
+
+/* Media Queries */
+@media (max-width: 376px) {
+    .udemy {
+        height: 1100px;
+        width: 1425px;
+    } 
+}

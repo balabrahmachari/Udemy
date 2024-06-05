@@ -1,0 +1,162 @@
+.footer {
+
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    height: 400px;
+    margin-top: 40px;
+    /* background-color: #36383b; */
+    background: #2D2F31;
+
+}
+
+.footer-upper {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 87px;
+    border-bottom: 1px solid rgb(86, 86, 86);
+}
+
+.footer-upper h1 {
+    padding-left: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: rgb(216, 216, 216);
+}
+
+.footer-upper h1 span {
+    color: rgb(145, 178, 243);
+}
+
+.footer-hr {
+    /* color: black; */
+    border: 1px solid rgb(209, 209, 209);
+    border-color: rgb(166, 166, 166);
+}
+
+.footer-logos {
+    cursor: pointer;
+    padding-right: 30px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.footer-logos img {
+    cursor: pointer;
+    height: 40px;
+}
+
+.footer-lower {
+    cursor: pointer;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-lower-left {
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.footer-lower-left p {
+    font-size: 15px;
+    color: rgb(238, 238, 238);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer-lower-right {
+    gap: 100px;
+    display: flex;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+.footer-lower-right button {
+    width: 140px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    color: white;
+    padding: 4px;
+}
+
+.footer-lower-right p {
+    color: white;
+}
+
+.footer-lang {
+    font-size: 17px;
+}
+
+.footer-lower1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-lower2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-lower3 {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-lower4 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer-logo-image {
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+
+
+/* Media Queries */
+@media (max-width: 376px) {
+    .footer {
+        margin-top:420px;
+        height: 1500px;
+        margin-top: -80px;
+    }
+    .footer-lower-left{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-lower1>p{
+        font-size: 40px;
+    }
+    .footer-lower2>p{
+        font-size: 40px;
+    }
+    .footer-lower3>p{
+        font-size: 40px;
+    }
+   .footer-logo-img>img{
+    height: 150px;
+    width: 300px;
+   }
+}
+@media (max-width: 1025px) and (min-width: 1023px) {
+
+}

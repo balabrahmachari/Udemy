@@ -1,0 +1,168 @@
+.sliderimage{
+    display: flex;
+    flex-direction: column;
+}
+.sliderimage>.gl{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    background-color: black;
+    border-radius: 200px;
+    color: white;
+    top: -220px;
+    left: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slideimg>img{
+    /* background-image: url('../Udemy/Assets/UdemySlider.jpeg'); */
+    height: 390px;
+    width: 1335px;
+}
+.skills{
+
+}
+.slid{
+    background: white;
+    height: 18rem;
+    width: 28rem;
+    /* border: 2px solid purple; */
+    padding: 2rem;
+    position: absolute;
+    top: 8rem;
+    left: 10rem;
+    display: none;
+}
+.topimage{
+    font-size: 2rem;
+    font-family: Times, "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 2.5rem;
+}
+.toptext{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem auto;
+    
+}
+.toppara{
+    line-height: 1.5rem;
+}
+.topplan{
+    /* height: 2rem; */
+    width: 12rem;
+    color: white;
+    background: black;
+    display: flex;
+    justify-content: start;
+    padding-left: 10px;
+    align-items: center;
+}
+.topplantext{
+    padding: 0.9rem 5px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.slidedowntext{
+    margin-top: 2rem;
+    /* border: 2px solid red; */
+    /* background: rgb(103, 103, 103); */
+    margin-bottom: 2rem;
+}
+.textheading{
+    padding: 1rem;
+}
+.textall{
+    margin-left: 13px;
+    font-family: Times, "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji";
+    padding-bottom: 10px;
+
+}
+.textfrom{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(120, 120, 120);
+}
+
+.webtext>a:hover{
+    color: black;
+}
+.anchertagtext{
+    text-decoration: none;
+    margin: 0.8rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(129, 128, 128);
+    font-weight: 6050;
+}
+.anchertagtext:first-child{
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+
+/* Media Queries */
+@media (max-width: 376px) {
+    .sliderimage {
+        height: 900px;
+        width: 1330px;
+    }
+    .slideimg {
+        height: 390px;
+        width: 1330px;
+        position: relative;
+        margin-right: 1000px;
+    }
+    .sli {
+      height: 123%;
+      width: -100px;
+        
+    }
+    .textall {
+        font-size: 100px;
+
+    }
+    .textfrom {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 1025px) and (min-width: 1023px){
+    .sliderimage {
+        height: 660px;
+        width: 99vw;
+        margin-left: -92px;
+    }
+    .gl {
+        margin-right: 500px;
+        background-color: red;
+    }
+   
+    .slideimg {
+        height: 390px;
+        width: 1330px;
+        margin-left: -320px;
+        margin-right: 1000px;
+        background-color: red;
+    }
+    .sli {
+      height: 123%;
+      width: 90vw;
+        
+    }
+    .textheading {
+        width: 90vw;
+        margin-bottom: 100px;
+        /* background-color: green; */
+    }
+    .textall {
+        font-size: 60px;
+        
+    }
+    .textfrom {
+        margin-left: -10px;
+        font-size: 30px;
+    }
+}

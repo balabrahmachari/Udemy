@@ -1,0 +1,172 @@
+.container4 {
+    height: 79vh;
+    margin-left: 100px;
+    width: 85vw;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-family: sans-serif;
+
+  }
+  
+  .header4 {
+    text-align: left;
+    height: 500px;
+    margin-bottom: 20px;
+  }
+  .header4 .h2 {
+    text-align: left;
+    margin-bottom: 30px;
+
+  }
+   .h34{
+    font-size: 35px;
+  }
+
+  .ab{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+  }
+  .ab .a{
+    width: 300px;
+    box-shadow:  0 0px 4px grey;
+  }
+  .ab .b{
+    width: 300px;
+    text-align: left;
+    box-shadow:  0 2px 4px grey;
+  }
+  .ab .a>h1{
+    font-size: 50px;
+  }
+  .ab .b>h1{
+    font-size: 50px;
+  }
+ 
+  
+  .button4{
+    height: 50px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  
+  .button4 button {
+    height: 40px;
+    width: 150px;
+    background-color:black;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button4 button:hover {
+    background-color: grey;
+  }
+  
+  .navigation4 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .prev,
+  .next {
+    height: 50PX;
+    width: 50PX;
+    background-color: #ddd;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+
+  
+  .dots {
+    display: flex;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 100%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dot.active {
+    background-color: blueviolet;
+  }
+
+  .image4 {
+    height: 400px;
+    width:600px;
+    margin-bottom: 180px;
+  }
+  
+  .image .img4 {
+    width: 100%;
+
+  }
+  
+
+
+  @media (max-width: 376px) {
+    .container4 {
+      height: 650px;
+      width: 95%;
+    }
+    .tabs {
+      flex-direction: column;
+    }
+  
+    .tab {
+      width: 100%;
+    }
+    .image4 {
+      display: none;
+    }
+    .img4 {
+      display: none;
+    }
+    .button4 button {
+      margin-left: 500px;
+    }
+    .navigation4 {
+      height: 100px;
+      margin-left: 500px;
+    }
+  }
+  
+  
+  @media (max-width: 1025px) and (min-width: 1023px)  {
+    .container4 {
+      height: fit-content;
+    }
+    .tabs {
+      flex-direction: column;
+    }
+  
+    .tab {
+      width: 100%;
+    }
+    .image4 {
+      display: none;
+    }
+    .button4 button {
+      margin-top: 50px;
+      margin-left: 300px;
+    }
+    .navigation4 {
+      height: 100px;
+      margin-left: 280px;
+    }
+  }
+

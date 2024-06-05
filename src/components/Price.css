@@ -1,0 +1,142 @@
+.pricing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .pricing-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .pricing-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-header p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .pricing-plans {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .pricing-plan {
+    background-color: #fff;
+    border-radius: 10px;
+    border-top: 8px solid blueviolet;
+    padding: 20px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 0 300px; 
+  }
+  
+  .pricing-plan h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-plan p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .plan-price {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .plan-price h4 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .plan-button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .plan-button:hover {
+    background-color: grey;
+  }
+  
+  .plan-features {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .plan-features li {
+    margin-bottom: 10px;
+  }
+  
+  .plan-features li i {
+    margin-right: 5px;
+    color: #4CAF50;
+  }
+
+  @media (max-width: 1025px) and (min-width: 1023px)  {
+    .pricing-plans {
+      flex-direction: column;
+    }
+  
+    .pricing-plan {
+      flex: 1 0 100%;
+    }
+  }
+
+  @media (max-width: 376px ) {
+    .pricing-plans{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .pricing-plan {
+      height: 1200px;
+      width: 800px;
+    }
+  }
+  
+  @media (max-width: 1025px) and (min-width: 1023px)  {
+    .pricing-plans {
+      flex-direction: column;
+    }
+  
+    .pricing-plan {
+      flex: 1 0 100%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

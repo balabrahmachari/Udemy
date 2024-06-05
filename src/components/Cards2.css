@@ -1,0 +1,167 @@
+h1{
+    margin-left: 120px;
+}
+.coursestext2{
+    width: 80vw;
+    margin-left: 120px;
+    display: flex;
+    overflow-x: auto;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+
+
+.cardscontainer2{
+    height: 400px;
+    display: flex;
+    grid-template-columns: 20.7rem 20.7rem 20.7rem 20.7rem;
+}
+.cards2{
+    height: 310px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0.5rem;
+}
+.cards2>img{
+    width: 100%;
+    border-radius: 10px;
+}
+.card1text{
+    padding-left: 10px;
+}
+.card1text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    line-height: 1.5rem;
+    padding-bottom: 20px;
+}
+.card1text>.i{
+    color: rgb(180,105,14);
+}
+
+.popup1{
+    height: 400px;
+    width: 320px;
+    margin-top: -400px;
+    margin-left: 340px;
+    background-color: white;
+    box-shadow: 2px 2px 10px grey;
+    position: relative;
+}
+.popup1>ol{
+    height: 83%;
+    list-style-type: none;
+    padding: 20px;
+    
+}
+.popup1>ol>li{
+    padding: 5px;
+
+}
+.popup1>ol>li>h1{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.popup1>div{
+    height: 17%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.popup1>div>button{
+    height: 70%;
+    width: 60%;
+    background-color: blueviolet;
+    font-weight: bolder;
+    color: white;
+    border: none;
+}
+.popup1>div>div{
+    height:50px;
+    width: 50px;
+    border: 1px solid;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+@media (max-width: 376px ) {
+    .coursestext2 {
+        height: 390px;
+        width: 1330px;
+    }
+  
+   
+    .cardscontainer2 {
+        height: 500px;
+        margin-top: 10px;
+
+    }
+    .cards {
+        /* overflow-x: scroll; */
+        height: 400px;
+        width: 310px;
+    }
+    .jsimg {
+        height: 50%;
+        width: 100%;
+
+    }
+ 
+
+}
+@media (max-width: 1025px) and (min-width: 1023px) {
+    h1{
+        margin-left: 10px;
+    }
+    .coursestext2 {
+        width: 100vw;
+        margin-left: 10px;
+    }
+
+    .cardscontainer2 {
+        height: 450px;
+        /* overflow-x: hidden; */
+
+    }
+    .cards {
+        height: 310px;
+        width: 400px;
+    }
+    .showtext {
+        margin-top: 10px;
+        
+    }
+    .jsimg {
+        height: 160px;
+    }
+
+}

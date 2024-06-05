@@ -1,0 +1,163 @@
+.goals{
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app{
+    height: 100%;
+    width: 85%;
+}
+.app>.header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.app>.content{
+    height: 85%;
+    display: flex;
+}
+.app>.content>.left-column{
+    height: 100%;
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.app>.content>.left-column>.card{
+    height: 20%;
+    width: 99% ;
+    border-radius: 10px;
+    border: 0.8px solid blueviolet;
+    border-left: 6px solid blueviolet;
+    display: flex;
+    
+}
+.app>.content>.left-column>.card>.card-icon{
+    height: 100%;
+    width: 20%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.app>.content>.left-column>.card>.card-icon>img{
+    height: 70px;
+}
+.app>.content>.left-column>.card>.card-title{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.app>.content>.right-column{
+    height: 100%;
+    width: 58%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.app>.content>.right-column>img{
+    height: 650px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .app-container {
+       margin: 20px auto;
+     }
+    .left-column {
+       flex-basis: 100%;
+     }
+    .right-column {
+       flex-basis: 100%;
+     }
+    .card {
+       margin-bottom: 10px;
+     }
+   }
+   
+   @media (max-width: 376px) {
+    .goals {
+        height: 710px;
+        width: 1430px;
+        margin-top: 300px;
+    }
+    .app {
+       margin: 10px auto;
+     }
+    .card {
+        height: 800;
+       padding: 10px;
+     }
+    .card-icon {
+       font-size: 18px;
+     }
+    .card-title {
+       font-size: 16px;
+     }
+    .card-description {
+       font-size: 14px;
+     }
+     .right-column {
+        display: block;
+     }
+     .right {
+        display: block;
+     }
+   }
+   @media (max-width: 1025px) and (min-width: 1023px) {
+    .goals {
+        height: 710px;
+        width: 1120px;
+        margin-top: -300px;
+    }
+    .app {
+      width: 100%;
+       margin: 10px auto;
+     }
+     .header h1 {
+      margin-left: 300px;
+     }
+    .card-icon {
+       font-size: 18px;
+     }
+     .content {
+      width: 180%;
+      margin-left: 100px;
+
+     }
+     .left-column {
+      width:1000px;
+     }
+     .card {
+      width: 500PX;
+       padding: 10px;
+     }
+    .card-title {
+      width: 700%;
+       font-size: 16px;
+     }
+    .card-description {
+       font-size: 14px;
+     }
+     .right-column {
+        display: none;
+     }
+     .right {
+        display: none;
+     }
+     .right-column>img{
+      display: none;
+     }
+   }
